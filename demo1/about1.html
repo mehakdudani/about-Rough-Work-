@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        .topbg {
+            background-image: url('/demo1/about/img/diya.jpeg');
+            height: 50vh;
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: cover;
+            padding: 2%;
+            background-position: 20% 20%;
+        }
+        
+        .heading {
+            text-align: center;
+            color: white;
+            padding-top: 1.5%;
+            font-size: 300%;
+            font-weight: bold;
+            text-shadow: black 2px 2px 10px;
+        }
+        
+        .text {
+            text-align: center;
+            font-family: cursive;
+            padding: 4%;
+            font-size: larger;
+        }
+        
+        .logo {
+            margin-left: 40%;
+            margin-top: 7.5%;
+        }
+        
+        .coin {
+            animation: animate 9s linear 10;
+            animation-delay: 10s;
+            animation-direction: alternate;
+        }
+        
+        .coin:hover {
+            -moz-box-shadow: 0px 6px 5px #ccc;
+            -webkit-box-shadow: 0px 6px 5px #ccc;
+            box-shadow: 0px 6px 5px gray;
+            -moz-border-radius: 190px;
+            -webkit-border-radius: 190px;
+            border-radius: 190px;
+        }
+        
+        @keyframes animate {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid col-sm-6">
+        <div class="topbg">
+            <div class="heading">
+                <p>About Us</p>
+            </div>
+
+            <div class="col-sm-6 col">
+                <img src="/demo1/about/img/logo.png" alt="Appa logo" width="15%" height="28%" class="logo coin ">
+                <div class="text">
+                    <p style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF">
+                        The flame of an oil lamp or candle is held by a wick, which is often <br>braided cotton. The liquid fuel, which is commonly melted candle wax,<br> evaporates and burns when it comes into contact with the flame. <br>The candle's
+                        wick has an impact on how it burns.
+                    </p>
+                    <br>
+                    <p style="text-shadow: 0 0 3px #00FF00, 0 0 5px #9900CC">
+                        The size of the wick determines how much fuel is drawn into the flames.<br> If there is too much fuel, the flame will flicker and soot, and if there is not enough fuel ,<br>the flame will fizzle out.<br> Wicks come in a huge variety
+                        of shapes and sizes.
+                    </p>
+                    <br>
+                    <p style="text-shadow: 0 0 3px #FF3300, 0 0 5px #990000">
+                        The type of wick you use is determined by a number of criteria,<br> including the intended application, the burn time, and the wax or oil used.<br> It's critical to choose the correct wick.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
